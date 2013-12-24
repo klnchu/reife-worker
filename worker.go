@@ -1,9 +1,16 @@
 package main
 
 import (
-    "fmt"
+	"fmt"
+	"os"
+	"time"
 )
 
 func main() {
-    fmt.Println("Hello.")
+	for {
+		time.Sleep(12)
+		trello_key := os.Getenv("TRELLO_KEY")
+		fmt.Println(trello_key)
+		fmt.Println("ending.....")
+	}
 }
