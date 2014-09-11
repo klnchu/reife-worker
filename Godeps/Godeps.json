@@ -1,0 +1,10 @@
+{
+	"ImportPath": "github.com/klnchu/reife-worker",
+	"GoVersion": "go1.1.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/kollinchu/reife-worker/trello",
+			"Rev": "79a485e9a1f77189d8a0e87d897a4c06305f8255"
+		}
+	]
+}
